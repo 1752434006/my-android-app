@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用名称 -->
+    <string name="app_name">替手 TiShou</string>
+
+    <!-- 无障碍服务 -->
+    <string name="accessibility_service_name">替手无障碍服务</string>
+    <string name="accessibility_service_description">替手需要无障碍服务权限来监控屏幕内容和执行自动点击操作，以实现订单自动抢夺功能。\n\n开启后，替手可以：\n• 识别屏幕上的订单信息\n• 自动点击抢单按钮\n• 监控界面变化并快速响应\n\n请放心，所有数据处理都在本地完成，不会上传隐私信息。</string>
+    <string name="accessibility_service_summary">智能订单自动抢夺辅助服务</string>
+
+    <!-- 通知渠道 -->
+    <string name="notification_channel_id">tishou_service</string>
+    <string name="notification_channel_name">替手运行服务</string>
+    <string name="notification_title">替手正在运行</string>
+    <string name="notification_content">智能监控中，发现订单将自动抢夺</string>
+
+    <!-- 主界面 -->
+    <string name="main_status_running">服务运行中</string>
+    <string name="main_status_stopped">服务已停止</string>
+    <string name="main_button_stop">停止服务</string>
+    <string name="main_button_start">启动服务</string>
+    <string name="main_today_grab">今日抢单</string>
+    <string name="main_success_rate">成功率</string>
+    <string name="main_last_grab">最后抢单</string>
+    <string name="main_never">暂无</string>
+
+    <!-- 功能入口 -->
+    <string name="menu_rule_config">抢单规则</string>
+    <string name="menu_log">运行日志</string>
+    <string name="menu_stats">统计分析</string>
+    <string name="menu_settings">应用设置</string>
+    <string name="menu_about">关于我们</string>
+
+    <!-- 权限引导 -->
+    <string name="permission_required">需要权限</string>
+    <string name="permission_accessibility_title">开启无障碍服务</string>
+    <string name="permission_accessibility_desc">替手需要无障碍服务权限才能正常工作</string>
+    <string name="permission_battery_title">关闭电池优化</string>
+    <string name="permission_battery_desc">防止后台运行时被系统杀死</string>
+    <string name="permission_overlay_title">开启悬浮窗权限</string>
+    <string name="permission_overlay_desc">用于显示抢单状态浮球</string>
+    <string name="permission_notification_title">开启通知权限</string>
+    <string name="permission_notification_desc">用于显示运行状态和抢单提醒</string>
+    <string name="permission_goto_settings">去设置</string>
+    <string name="permission_later">稍后再说</string>
+
+    <!-- 设置项 -->
+    <string name="setting_general">通用设置</string>
+    <string name="setting_sound">声音与震动</string>
+    <string name="setting_advanced">高级设置</string>
+    <string name="setting_about">关于</string>
+
+    <!-- 提示消息 -->
+    <string name="toast_service_started">服务已启动</string>
+    <string name="toast_service_stopped">服务已停止</string>
+    <string name="toast_order_grabbed">抢单成功！</string>
+    <string name="toast_order_failed">抢单失败</string>
+    <string name="toast_no_permission">请先授予必要权限</string>
+    <string name="toast_rule_saved">规则已保存</string>
+    <string name="toast_export_success">导出成功</string>
+
+    <!-- 对话框 -->
+    <string name="dialog_confirm">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_delete">删除</string>
+    <string name="dialog_save">保存</string>
+    <string name="dialog_add_rule">添加规则</string>
+    <string name="dialog_edit_rule">编辑规则</string>
+
+    <!-- 规则配置 -->
+    <string name="rule_keyword">关键词</string>
+    <string name="rule_keyword_hint">输入订单关键词，多个用逗号分隔</string>
+    <string name="rule_price_range">价格区间</string>
+    <string name="rule_min_price">最低价格</string>
+    <string name="rule_max_price">最高价格</string>
+    <string name="rule_area">配送区域</string>
+    <string name="rule_area_hint">指定配送区域（可选）</string>
+    <string name="rule_enabled">启用</string>
+    <string name="rule_priority">优先级</string>
+
+    <!-- 统计 -->
+    <string name="stats_total_grabbed">累计抢单</string>
+    <string name="stats_today_grabbed">今日抢单</string>
+    <string name="stats_success_count">成功次数</string>
+    <string name="stats_fail_count">失败次数</string>
+    <string name="stats_success_rate">成功率</string>
+    <string name="stats_avg_response">平均响应</string>
+    <string name="stats_unit_ms">ms</string>
+
+    <!-- 日志级别 -->
+    <string name="log_verbose">详细</string>
+    <string name="log_debug">调试</string>
+    <string name="log_info">信息</string>
+    <string name="log_warning">警告</string>
+    <string name="log_error">错误</string>
+
+    <!-- 关于 -->
+    <string name="about_version">版本 1.0.0</string>
+    <string name="about_desc">替手是一款基于无障碍服务和 OCR 技术的 Android 自动化辅助工具，专为高效抢单设计。</string>
+    <string name="about_copyright">© 2024 TiShou Assistant</string>
+</resources>

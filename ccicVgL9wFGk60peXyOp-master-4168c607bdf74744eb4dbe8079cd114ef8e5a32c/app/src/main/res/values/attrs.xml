@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RoundedCard 自定义属性 -->
+    <declare-styleable name="RoundedCard">
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="shadowColor" format="color" />
+        <attr name="shadowRadius" format="dimension" />
+        <attr name="shadowDx" format="dimension" />
+        <attr name="shadowDy" format="dimension" />
+        <attr name="cardBackgroundColor" format="color" />
+        <attr name="strokeColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+    </declare-styleable>
+
+    <!-- iOSButton 自定义属性 -->
+    <declare-styleable name="iOSButton">
+        <attr name="android:text" />
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="pressedColor" format="color" />
+        <attr name="cornerRadius" format="dimension" />
+    </declare-styleable>
+</resources>
