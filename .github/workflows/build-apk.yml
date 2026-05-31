@@ -19,20 +19,18 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: 3. 进入项目目录
+    - name: 3.5 清理旧文件  <-- 新增这一步，防止缓存错误
+      run: rm -rf ~/.gradle
+
+    - name: 4. 进入项目目录
       run: |
         cd ccicVgL9wFGk60peXyOp-master-4168c607bdf74744eb4dbe8079cd114ef8e5a32c
         ls -la
 
-    - name: 4. 赋予打包脚本权限
-      run: |
-        cd ccicVgL9wFGk60peXyOp-master-4168c607bdf74744eb4dbe8079cd114ef8e5a32c
-        chmod +x gradlew
-
     - name: 5. 开始打包 Debug 版
       run: |
         cd ccicVgL9wFGk60peXyOp-master-4168c607bdf74744eb4dbe8079cd114ef8e5a32c
-        ./gradlew assembleDebug
+        bash gradlew assembleDebug  <-- 这里改成了 bash gradlew
 
     - name: 6. 上传 APK 文件
       uses: actions/upload-artifact@v4
